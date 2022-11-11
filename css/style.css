@@ -13,6 +13,7 @@ header {
 
 a {
     text-decoration: none;
+    font-size: 1.2em;
 }
 
 header .menu {
@@ -22,12 +23,12 @@ header .menu {
     align-items: center;
     justify-content: space-between;
     padding: 40px;
+    border-bottom: 1px solid rgba(255, 12, 57, 0.4);
 }
 
 header .menu .logo-image {
     width: 2.5em;
     height: 2.5em;
-
 }
 
 header .menu li {
@@ -41,9 +42,9 @@ header .menu a {
     transition: 200ms;
 }
 
-header .menu .li-ativado, header .menu a:hover {
+header .menu .li-ativado, header .menu .item:hover {
     color: #FAFAFA;
-    background-color: #131313;
+    background-color: #ff3f62;
 }
 
 .principal {
