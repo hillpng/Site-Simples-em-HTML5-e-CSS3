@@ -37,7 +37,7 @@ header .menu li {
     display: inline-block;
 }
 
-header .menu a {
+header .menu .item {
     color: #131313;
     padding: 8px 16px;
     border-radius: 3px;
@@ -49,7 +49,7 @@ header .menu .li-ativado, header .menu .item:hover {
     background-color: #ff3f62;
 }
 
-header .menu a:hover {
+header .menu .item:hover {
     color: #FAFAFA;
-    background-color: #131313;
+    background-color: #ff3f62;
 }
