@@ -5,15 +5,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-}
-
-body {
     background-color: #FAFAFA;
+    color: #131313;
 }
 
+/*------------- INICIO - Estilizando Cabeçalho-------------*/
 header {
     width: 100%;
-    background-color: #FAFAFA;
     border-bottom: 1px solid rgba(255, 12, 57, 0.4);
 }
 
@@ -23,7 +21,7 @@ header a {
 }
 
 header .menu {
-    width: 940px;
+    width: 85vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,8 +29,8 @@ header .menu {
 }
 
 header .menu .logo-image {
-    width: 2em;
-    height: 2em;
+    width: 2.5em;
+    height: 2.5em;
 }
 
 header .menu li {
@@ -40,7 +38,6 @@ header .menu li {
 }
 
 header .menu .item {
-    color: #131313;
     padding: 8px 16px;
     border-radius: 3px;
     transition: 200ms;
@@ -50,12 +47,9 @@ header .menu .li-ativado, header .menu .item:hover {
     color: #FAFAFA;
     background-color: #ff3f62;
 }
+/*------------- FIM - Estilizando Cabeçalho-------------*/
 
-header .menu .item:hover {
-    color: #FAFAFA;
-    background-color: #ff3f62;
-}
-
+/*------------- INICIO - Estilizando Corpo-------------*/
 main {
     display: flex;
     justify-content: center;
@@ -64,8 +58,8 @@ main {
 }
 
 main .container {
-    width: 1150px;
-    margin: 40px;
+    width: 85vw;
+    margin: 40px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -75,7 +69,7 @@ main .container {
 main .container .card {
     display: flex;
     flex-direction: column;
-    width: 280px;
+    width: 350px;
     border: 1px solid rgba(255, 12, 57, 0.4);
     overflow: hidden;
     border-radius: 3px;
