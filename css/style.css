@@ -14,25 +14,25 @@ body {
 header {
     width: 100%;
     background-color: #FAFAFA;
+    border-bottom: 1px solid rgba(255, 12, 57, 0.4);
 }
 
 header a {
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: .8em;
 }
 
 header .menu {
-    width: 100%;
+    width: 940px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 40px;
-    border-bottom: 1px solid rgba(255, 12, 57, 0.4);
+    margin: 20px auto;
 }
 
 header .menu .logo-image {
-    width: 2.5em;
-    height: 2.5em;
+    width: 2em;
+    height: 2em;
 }
 
 header .menu li {
@@ -91,7 +91,7 @@ main .container .card img {
 }
 
 main .container .card h1 {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 main .container .card .content {
